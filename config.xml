@@ -158,11 +158,11 @@
     <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
-
+<!--
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='ICE_XJTLU']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
-
+-->
     <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
 
